@@ -1,2 +1,2 @@
-Task for android course - Camera App
+Task for android course - Camera App<br>
 Bahno Oleksandr
