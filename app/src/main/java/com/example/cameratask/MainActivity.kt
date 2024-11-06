@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
     private fun sharePicture() {
         val intent = Intent(Intent.ACTION_SEND).apply {
             type = "image/jpeg"
-            putExtra(Intent.EXTRA_SUBJECT, "Bahno - android home task")
+            putExtra(Intent.EXTRA_SUBJECT, "DigiJED Bahno Oleksandr")
             putExtra(Intent.EXTRA_TEXT, "Link to github - https://github.com/AlexBahno/CameraTask")
             putExtra(Intent.EXTRA_STREAM, imageURL)
         }
